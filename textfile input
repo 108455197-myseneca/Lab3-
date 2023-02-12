@@ -6,3 +6,10 @@ scone_file[3] = "reference"
 with open("mypc.txt", "w") as mypc:
 	contents = "".join(scone_file)
 	mypc.write(contents)
+	
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
+
