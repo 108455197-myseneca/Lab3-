@@ -1,0 +1,8 @@
+with open("mypc.txt", "r") as file:
+	mypc_file = file.readlines()
+
+scone_file[3] = "reference"
+
+with open("mypc.txt", "w") as mypc:
+	contents = "".join(scone_file)
+	mypc.write(contents)
